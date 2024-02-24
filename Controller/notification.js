@@ -3,10 +3,8 @@ const DAO = require("../DAO/queries");
 
 const FCM = require("fcm-node");
 const serverKey =
-  "AAAAY9PkhyA:APA91bGtItnkD317hES-czcr52QhfiZuDevFAvSKbDsjWd3-T6m4LFITfP22IT1Vp5wyQbCQxJGWl8O1bcluMJM1GDI0e5KxAW_CY75C1QYipEBhRXgVQ7wpOmxEZily31PEybl_huOG"; //put your server key here
+  "Add server Key"; //put your server key here
 const fcm = new FCM(serverKey);
-
-// reciverKey(test): "eETLqIzS8kpGuLyNfeejK2:APA91bEn1XWVUjOpQix1rxoJTdWUO_cX2-gxc_ATIwuNIy1cvCcDBS0LtyxXf-MP5oe5uxyuMMkj8dJMj0FZI6slu9kMi_H4-ML-6BVS4yYfvm7YPH_2K3_HI4PMFF-nBBP0GyDLfGZE"
 
 let message = {
   to: "device_registration_token",
