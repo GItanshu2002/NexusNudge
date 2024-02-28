@@ -37,5 +37,3 @@ app.listen(8000, () => {
   console.log("Server running at: http://localhost:", 8000);
 });
 
-// APP  Strecture:
-// https://stackgeeks.invisionapp.com/console/share/EJC7F84ZSVX/886654056/play
